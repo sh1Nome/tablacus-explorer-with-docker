@@ -3,7 +3,5 @@ services:
   linux:
     build: ./
     container_name: linuxc
-    working_dir: /work
     volumes:
-      - './te:/work/te'
-    tty: true
+      - './te:/build/te'
