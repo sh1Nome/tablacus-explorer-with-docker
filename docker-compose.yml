@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  linux:
+    build: ./
+    container_name: linuxc
+    working_dir: /work
+    volumes:
+      - './te:/work/te'
+    tty: true
