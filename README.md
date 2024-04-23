@@ -1,6 +1,7 @@
-# 概要
-Dockerを利用したTablacusExplorerのカスタムビルド
-
-# 詳細
-[Tablacus Explorer](https://tablacus.github.io/explorer.html)<br>
-安定版の23.9.13で実装<br>
+`install.bat`をダブルクリックするとTablacus Explorerがインストールされる<br>
+以下拡張機能を追加インストールした<br>
+* Everything
+* 拡張機能お気に入りバー（水平）
+* 更新
+設定も簡単にカスタマイズした<br>
+再インストールの際は`te`フォルダを削除してから
